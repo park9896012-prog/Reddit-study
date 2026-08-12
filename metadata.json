@@ -1,0 +1,6 @@
+{
+  "name": "Reddit 쉽게 이해하고 활용하기",
+  "description": "Reddit 초보자부터 기업/기관 실무자까지 레딧의 핵심 구조, 카르마, 서브레딧 탐색, 트렌드 분석 및 글로벌 마케팅 활용법을 한국어/영어 다국어로 제공하는 종합 가이드 웹사이트",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
