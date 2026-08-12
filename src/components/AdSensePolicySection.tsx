@@ -1,7 +1,6 @@
 import React from 'react';
 import { Language } from '../types';
 import { UI_TEXT, CONTACT_EMAIL } from '../data/translations';
-import { AdSenseBanner } from './AdSenseBanner';
 import { ShieldCheck, CheckCircle2, FileText, Lock, Mail, ExternalLink } from 'lucide-react';
 
 interface AdSensePolicySectionProps {
@@ -94,11 +93,6 @@ export const AdSensePolicySection: React.FC<AdSensePolicySectionProps> = ({
             </div>
           </div>
 
-        </div>
-
-        {/* Ad Placement Demonstration Unit */}
-        <div className="max-w-4xl mx-auto">
-          <AdSenseBanner lang={lang} format="horizontal" slotId="9876543210" />
         </div>
 
         {/* Legal Modal Action Buttons */}

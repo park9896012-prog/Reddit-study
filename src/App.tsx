@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Language } from './types';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
-import { AdSenseBanner } from './components/AdSenseBanner';
 import { ConceptsSection } from './components/ConceptsSection';
 import { GlossarySection } from './components/GlossarySection';
 import { StepGuideSection } from './components/StepGuideSection';
@@ -81,11 +80,6 @@ export default function App() {
           onSearchClick={() => scrollToSection('glossary')}
         />
 
-        {/* Top AdSense Compliance Unit */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AdSenseBanner lang={lang} format="horizontal" slotId="1001001001" />
-        </div>
-
         {/* 1. Core Concepts & Interactive Voting Simulator */}
         <ConceptsSection lang={lang} />
 
@@ -108,10 +102,6 @@ export default function App() {
           onOpenTerms={() => setTermsModalOpen(true)}
         />
 
-        {/* Bottom AdSense Unit */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-          <AdSenseBanner lang={lang} format="horizontal" slotId="2002002002" />
-        </div>
       </main>
 
       {/* Footer */}
